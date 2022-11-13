@@ -1,0 +1,155 @@
+.container {
+  max-width: 960px;
+}
+
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.background-hero-img {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/kubrickwithmonolith.webp);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100% !important;
+}
+
+.card1 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_5147.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card2 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/yt5s.com-Boston\ Lightning\ 200\ Lightning\ Strikes\ _\ July\ 2021.mp4);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card3 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_5065.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card4 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_4764.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card5 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_5195.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card6 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_5233.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card7 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/dawn_bridge.jpg);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card8 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/_MG_5003.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card9 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/kayneLiveBoston.jpg);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+.card10 {
+  background-color: rgb(195, 184, 166);
+  background-image: url(/denecke/img/photo/foggyBridge.JPG);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+
+
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
